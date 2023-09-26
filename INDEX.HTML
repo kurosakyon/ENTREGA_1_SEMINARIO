@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personalizacion.css">
+
+  <!-- ---------------------------------------------------------------------------------------------------- -->
+
+    <title>POKE-ENCUESTAS</title>
+</head>
+<body>
+<!-- aqui hacemos el encabezado de la página con el logo y el menú superior como un dios-->
+    <header>
+        <div class="logo">
+
+            <!-- definimos un tamaño pequeño para el logo -->
+
+            <img src="logo 2.png" alt="Logo de la página">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#encuestas">Encuestas</a></li>
+                <li><a href="#pokemon-tops">Pokémon Tops</a></li>
+                <li><a href="Guias de regiones.html">Guías de Regiones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+
+    <!-- apartado de encuestas -->
+
+    <section id="encuestas">
+        <h1>POKE-ENCUESTAS</h1>
+        <div class="encuesta">
+            <h2>¿Cuál es el mejor Pokémon competitivo de esta semana?</h2>
+            <div class="opciones">
+
+
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+                <!-- imagen de pokemon, su nombre mas el boton votar-->
+
+                <div class="opcion">
+                    <img src="RAIKOU2.png" alt="Pokemon 1">
+                    <p class="nombre">Raikou</p>
+                    <button class="votar">Votar</button>
+                    <p class="votos">Votos: <span>0</span></p>
+                </div>
+
+
+                <!-- 2 imagen de pokemon, su nombre mas el boton votar-->
+
+                <div class="opcion">
+                    <img src="GARCHOM2.png" alt="Pokemon 2">
+                    <p class="nombre">Garchomp</p>
+                    <button class="votar">Votar</button>
+                    <p class="votos">Votos: <span>0</span></p>
+                </div>
+
+
+                <!-- 3 imagen de pokemon, su nombre mas el boton votar-->
+
+                <div class="opcion">
+                    <img src="PIKACHU.png" alt="Pokemon 3">
+                    <p class="nombre">Pikachu</p>
+                    <button class="votar">Votar</button>
+                    <p class="votos">Votos: <span>0</span></p>
+                </div>
+
+
+                <!-- 4 imagen de pokemon, su nombre mas el boton votar-->
+
+                <div class="opcion">
+                    <img src="SNORLAX.png" alt="Pokemon 4">
+                    <p class="nombre">Snorlax</p>
+                    <button class="votar">Votar</button>
+                    <p class="votos">Votos: <span>0</span></p>
+                </div>
+
+
+                <!-- 5 imagen de pokemon, su nombre mas el boton votar -->
+
+                <div class="opcion">
+                    <img src="BLASTOISE.png" alt="Pokemon 5">
+                    <p class="nombre">Blastoise</p>
+                    <button class="votar">Votar</button>
+                    <p class="votos">Votos: <span>0</span></p>
+                </div>
+
+
+                <!-- 6 imagen de pokemon, su nombre mas el boton votar -->
+
+                <div class="opcion">
+                    <img src="CHARIZARD.png" alt="Pokemon 6">
+                    <p class="nombre">Charizard</p>
+                    <button class="votar">Votar</button>
+                    <p class="votos">Votos: <span>0</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+
+<!-- Primera pregunta -->
+<div class="pregunta">
+    <label for="pokemonTop">1. ¿Qué Pokémon te gustaría agregar al TOP?</label>
+    <select id="pokemonTop" name="pokemonTop">
+        <option value="pikachu">Pikachu</option>
+        <option value="charizard">Charizard</option>
+        <!-- Agrega más opciones de Pokémon de la región de Kanto aquí -->
+    </select>
+</div>
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+
+<!-- Segunda pregunta -->
+
+<div class="pregunta">
+    <label for="pokemonFavorito">2. ¿Cuál es tu Pokémon favorito de la región de Kanto?</label>
+    <select id="pokemonFavorito" name="pokemonFavorito">
+        <option value="pikachu">Pikachu</option>
+        <option value="charizard">Charizard</option>
+        
+
+    </select>
+</div>
+
+
+<!------------------------------------------------------------------------------------------------------ -->
+
+
+<!-- Tercera pregunta -->
+<div class="pregunta">
+    <label for="comentarios">3. Comentarios y recomendaciones:</label>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+</div>
+
+<!-- Botón de enviar respuestas (no funcional) -->
+<button type="button" class="enviar">Enviar Respuestas</button>
+
+
+
+
+<!------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Pie de página -->
+    <footer>
+        <p>DERECHOS RESERVADOS POR UNIPACIFICO.</p>
+    </footer>
+
+<!------------------------------------------------------------------------------------------------------- -->
+
+
+
+<!--FUNCIONALIDAD DE BOTONES---Y OTROS----->
+
+
+<!--SE LLAMA AL ARCHIVO DONDE ESTA LA FUNCIONALIDAD----->
+
+<script src="votar.js"></script>
+
+<!--se que no habia qeu hacer nada funcional pero me emocione, pido perdon e ignorenlo. xD-->
+
+<!------------------------------------------------------------------------------------------------------- -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--kuro deja de hacer las cosas a ultima hora, siempre lo mismo con vos, y lo peor es que siempre-->
+<!--trabajas bien bajo presion pero te arriesgas demasiado-->
+<!-- psdt: no creo que nadie lea esto pero, son notas de mi para mi porque yo si suelo ver mi codigo-->
+<!-- pasado un tiempo despues xD, en fin, saludos si alguien llega a leer mis pendejadas JAJAJAJA-->
+<!--psdt x2: ODIO ROTUNDAMENTE HTML5 LO DETESTO LO ODIO, LO MISMO CON JAVA SCRIP-->

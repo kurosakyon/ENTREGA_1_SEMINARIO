@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Color de fondo de la página */
+  /* Estilos generales */
+  /* Estilos para el pie de página */
+}
+body body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Color de fondo de la página */
+}
+body footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+body footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/*fin del body
+
+
+/* -----------------------------------------------------------------------------------------------*/
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el menú superior */
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-left: auto; /* Mueve el menu hacia la izquierda */
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold; /* Texto en negrilla */
+}
+
+/*se utiliza para definir cómo se debe ver un enlace de navegación cuando el usuario coloca el puntero del mouse sobre é*/
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+/* Estilos para el logo */
+.logo img {
+  max-width: 100px;
+  height: auto;
+  margin-left: 20px; /* Espacio a la izquierda del logo */
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+/* Estilos de la sección de encuestas */
+#encuestas {
+  padding: 20px;
+  text-align: center;
+}
+
+#encuestas h1 {
+  font-size: 24px;
+  color: #333; /* Color de título */
+}
+
+.encuesta {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.encuesta h2 {
+  font-size: 18px;
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+/* Estilos para las imágenes de Pokémon y nombre */
+.opciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar los elementos horizontalmente */
+  align-items: center; /* Centrar los elementos verticalmente */
+}
+
+.opcion {
+  text-align: center;
+  margin: 11px; /* Espacio entre las opciones */
+  width: 180px; /* Ancho de cada opción */
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+.opcion img {
+  width: 167px;
+  height: 190px;
+  border: 1px solid #ccc; /* Borde alrededor de las imágenes */
+  margin-bottom: 10px; /* Espacio entre la imagen y el botón */
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+.opcion .nombre {
+  font-weight: bold; /* Texto en negrita */
+}
+
+.opcion .votar {
+  background-color: #0074D9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* Centra el botón horizontalmente y agrega espacio debajo */
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+.opcion .votar:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el contador de votos */
+.opcion .votos {
+  font-weight: bold; /* Texto en negrita */
+  color: #0074D9; /* Color relacionado con Pokémon */
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+/* Estilos para las preguntas y respuestas */
+/* ubica donde van a estar las preguntas */
+.pregunta {
+  margin-top: 25px;
+  text-align: center;
+  /* distancia de cada etiqueta */
+  /* margen cuadro de texto, tamaño y color de los bordes */
+}
+.pregunta label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.pregunta select, .pregunta textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #e98e8e;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.pregunta textarea {
+  resize: vertical; /* Permite redimensionar verticalmente [parkur xd] */
+}
+
+/* Personalizacion para el botón de enviar respuestas */
+.enviar {
+  background-color: #0074D9;
+  color: #FAF3E0;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* Centrar el botón horizontalmente y agrega espacio debajo */
+}
+
+.enviar:hover {
+  background-color: #0056b3;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column; /* Apila el logo y el menú verticalmente en dispositivos móviles */
+    text-align: center;
+  }
+  header ul {
+    margin-top: 10px; /* Espacio entre el logo y el menú en dispositivos móviles */
+    margin-left: 0; /* Elimina el margen izquierdo del menú en dispositivos móviles */
+  }
+  .opciones {
+    flex-direction: column; /* Apila las opciones verticalmente en dispositivos móviles */
+  }
+}/*# sourceMappingURL=personalizacion.css.map */
